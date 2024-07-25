@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: inter;
+}
+body{
+    background-color: #F2F2F2;
+}
+
+header{
+    background-color: #0C70F2;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+}
+
+#header_logo{
+    width: 300px;
+    height: 50px;
+    margin-left: 5%;
+}
+
+#header_links{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+#header_links a{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#descricao{
+    display: flex;
+    margin-top: 7%;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+#descricao h1{
+    font-weight: 800;
+}
+
+#dados{
+    width: 40%;
+    background-color: #FFFFFF;
+    margin-top: 8%;
+    border-radius: 30px;
+}
+
+#formulario{
+    padding: 15% 15% 0 15%;
+}
+
+#formulario div label{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#formulario input{
+    background: #F2F2F2E5;
+}
+
+#botao{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+#resultado_cep{
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: end;
+    margin-top: 20%;
+}
+
+#resultado_cep_titulo{
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 3%;
+}
+
+#resultado_cep{
+    display: flex;
+}
+
+#resultado_cep_endereco{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 3%;
+    justify-content: center;
+    width: 65%;
+    
+}
+
+
+
+
+#resultado_cep_endereco_descricao{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0C70F2;
+    border-radius: 30px 30px 0 0;
+    color: white;
+    height:72px;
+}
+
+#resultado_cep_endereco_descricao p{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#resultado_cep_endereco_resposta{
+    display: flex;
+    justify-content: space-evenly;
+    height: 72px;
+    border-radius: 0 0 30px 30px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+#resultado_cep_endereco_resposta p{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#resultado_tempo{
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: end;
+    margin-top: 10%;
+}
+
+#resultado_tempo_titulo{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#img_nuvem{
+    margin-left: 45px;
+}
+
+#resultado_tempo_resposta{
+    background-color:#FFFFFF;
+    width: 65%;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #0C70F2;
+}
+
+#resultado_tempo_resposta p{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+footer{
+    height: 80px;
+    margin-top: 10%;
+    background-color: #0C70F2;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 2%;
+}
